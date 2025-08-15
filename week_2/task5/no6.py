@@ -1,0 +1,15 @@
+#Attendence tracker
+#tasks6
+weekdays=("monday","tuesday","wednesday","thursday","friday")
+months=("january","feburary","march","april","may","july","august","september","octomber","november","december")
+students_name =input("kindly input your name: ")
+gender =input("kindly input your gender:")
+course_track =input("provide your course_track")
+current_month_number=int(input("kindly input month number(1-12):" ))
+current_day_number= int(input("kindly input day number(1-7): "))
+print("\n  attendence tracker   ")
+print(f"student_name {students_name}")
+print(f"gender: {gender}")
+print(f"course_track: {course_track}")
+print(f"current_month_number:{current_month_number}")
+print(f"current_day_number:{current_day_number}")

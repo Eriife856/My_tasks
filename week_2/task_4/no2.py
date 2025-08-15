@@ -1,10 +1,3 @@
-#favourite life quote
-Quote = input("Enter favourite quote :")
-# converted_quote = Quote.title()
-print(f"\'{Quote}\'".title())
-
-
-
 # #Shopping List Manager
 empty_list =[]
 shopping_items_1 = input("Kindly input shopping items:")

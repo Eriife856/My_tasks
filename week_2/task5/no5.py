@@ -1,0 +1,17 @@
+#Modify tuple indirectly
+#task5
+shopping_list1 =input("kindly enter your shopping list:")
+shopping_list2 =input("kindly enter your shopping list:")
+shopping_list3 =input("kindly enter your shopping list:")
+shopping_list=(shopping_list1,shopping_list2,shopping_list3)
+print(shopping_list)
+lst=list(shopping_list)
+items_1=input("kindly pprovide other items: ")
+items_2=input("kindly provide other items:")
+new_list=(f"{items_1},{items_2}")
+print(new_list)
+# lst2=list(new_list)
+lst.append(new_list)
+print(lst)
+shopping_list=tuple(lst)
+print(shopping_list)
